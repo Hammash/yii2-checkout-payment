@@ -25,7 +25,5 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \hammash\checkout\AutoloadExample::widget(); ?>```
+1- Set (test/CheckoutController) in api\versions\v1\controllers\CheckoutController.php
+2- Create Helper in common/component/Helpers to get data from your DB
