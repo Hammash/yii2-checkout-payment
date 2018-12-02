@@ -1,0 +1,21 @@
+{
+    "name": "hammash/yii2-checkout-payment",
+    "description": "yii2 checkout payment extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2 ","extension"," checkout "," payment "," creditCard payment"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "hammash",
+            "email": "m.kh@outlook.it"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hammash\\checkout\\": ""
+        }
+    }
+}
