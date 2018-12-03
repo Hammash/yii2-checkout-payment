@@ -63,7 +63,7 @@ class Checkout extends Component
     }
 
     /**
-     * @return hammash\checkout\Reporting
+     * @return Reporting
      */
     public function reporting()
     {

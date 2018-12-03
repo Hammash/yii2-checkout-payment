@@ -12,7 +12,6 @@ namespace api\versions\v1\controllers;
 use api\models\Member;
 
 use common\behaviors\ValidateRequestBehavior;
-
 use hammash\checkout\Helper;
 use yii\filters\auth\CompositeAuth;
 use yii\filters\auth\HttpBasicAuth;
@@ -93,7 +92,7 @@ class CheckoutController extends AltibbiController
     public function actionCancelPayment()
     {
 
-        $chargeId = '';
+        $chargeId = 'charge_221AEADDE74J76BD2F18';
         $trackId = '';
         try {
             $cancelPayment = \Yii::$app->checkout->charges()->voidCharge($chargeId, $trackId);
